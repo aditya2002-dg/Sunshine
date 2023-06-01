@@ -22,6 +22,11 @@ a:hover {
     color: var(--blue) !important;
 }
 
+a.dropdown-item:active{
+    background-color: #eee !important;
+    color: var(--black) !important;
+}
+
 :root {
     --green: #9aca48;
     --black: #3e363f;
@@ -138,6 +143,23 @@ a:hover {
     position: relative;
     bottom: -150px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.sec-gs-2 .card {
+    border: 8px solid !important;
+    border-radius: 30px !important;
+    border-color: var(--green) !important;
+    height: 100%;
+}
+
+.sec-gs-2 .card-body .my-card {
+    position: absolute;
+    top: -70px;
+    border-radius: 10%;
+}
+.sec-gs-2 .card:hover .my-card{
+    left: 40%;
 }
 
 
